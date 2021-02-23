@@ -1,5 +1,6 @@
 //imports
 import Animal from './Animal'
+import Human from './Human'
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <Animal animal="cat"/>
       <Animal animal="tiger"/>
       <Animal animal="eagle"/>
-      
+      <Human name="Scott" location="Arizona"/>
     </div>
+  
   );
 
 }

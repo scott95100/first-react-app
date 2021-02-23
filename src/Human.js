@@ -7,3 +7,5 @@ function Human(props){
         </div>
     )
 }
+
+export default Human;
